@@ -1,341 +1,349 @@
 :root {
-    --clr-icons: #929292;
-    --clr-text: #fff;
-    --clr-bg-dark: #242424;
-    --clr-bg-light: #3b3b3b;
-    --clr-accent: #ff7600;
-  }
+  --clr-icons: #929292;
+  --clr-text: #fff;
+  --clr-bg-dark: #242424;
+  --clr-bg-light: #3b3b3b;
+  --clr-accent: #ff7600;
+}
 
 body {
-    font-family: 'Raleway', sans-serif;
-    margin: 1em;
-    background-color: var(--clr-bg-dark);
-    padding: 0;
+  font-family: "Raleway", sans-serif;
+  margin: 1em;
+  background-color: var(--clr-bg-dark);
+  padding: 0;
 }
+
 section {
-    margin-top: 5em;
+  margin-top: 5em;
 }
 
 h1 {
-    color: var(--clr-accent);
-    font-weight: 500;
+  color: var(--clr-accent);
+  font-weight: 500;
 }
 
 a {
-    text-decoration: none;
-    color: var(--clr-text);
+  text-decoration: none;
+  color: var(--clr-text);
 }
 
 header {
-    display: flex;
-    color: var(--clr-text);
-    justify-content: space-between;
-    margin: 2rem 1rem;
-    position: sticky;
-    top: 0em;
-    background-color: var(--clr-bg-dark);
-    top: 0;
+  display: flex;
+  color: var(--clr-text);
+  justify-content: space-between;
+  margin: 2rem 1rem;
+  position: sticky;
+  top: 0em;
+  background-color: var(--clr-bg-dark);
+  top: 0;
 }
 
 .logo {
-    display: flex;
-    margin-left: 3em;
+  display: flex;
+  margin-left: 3em;
 }
 
 .logo-item {
-    height: auto;
-    width: 10em;
+  height: auto;
+  width: 10em;
 }
 
-.logo-item:focus, .logo-item:hover {
-    cursor: pointer;
+.logo-item:focus,
+.logo-item:hover {
+  cursor: pointer;
 }
 
 .humb-menu {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.humb-menu-placeholder:focus, .humb-menu-placeholder:hover {
-    cursor: pointer;
+.humb-menu-placeholder:focus,
+.humb-menu-placeholder:hover {
+  cursor: pointer;
 }
 
 .nav {
-    display: flex;
-    flex-direction: row;
-    gap: 3em;
-    align-items: center;
-    flex: 1;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
 }
 
-.nav-item a:focus, .nav-item a:hover {
-    color: var(--clr-accent);
-    cursor: pointer;
-    transition: ease-in-out .2s;
+.nav-item a:focus,
+.nav-item a:hover {
+  color: var(--clr-accent);
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
 }
 
 main {
-    margin: 1rem;
-    background-color: var(--clr-bg-light);
-    padding: 1rem;
-    border-radius: 20px;
+  margin: 1rem;
+  background-color: var(--clr-bg-light);
+  padding: 1rem;
+  border-radius: 20px;
 }
 
 .img1 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .img1 img {
-    width: 60%;
-
+  width: 60%;
 }
 
 .intro {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 2em;
-    color: var(--clr-text);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  color: var(--clr-text);
 }
 
 .phrase {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    height: auto;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: auto;
 }
 
 .phrase span {
-    display: flex;
-    justify-content: center;
-    color: var(--clr-accent);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: 400%;
-    object-fit: contain;
+  display: flex;
+  justify-content: center;
+  color: var(--clr-accent);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 400%;
+  object-fit: contain;
 }
 
 .desc {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .socials {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .socials img {
-    width: 2.5em;
-    height: auto;
-    display: flex;
-    padding: .3em;
-    border-color: var(--clr-text);
-    border-radius: 50px;
-    margin: .5em;
+  width: 2.5em;
+  height: auto;
+  display: flex;
+  padding: 0.3em;
+  border-color: var(--clr-text);
+  border-radius: 50px;
+  margin: 0.5em;
 }
 
-.socials img:hover, img:focus{
-    transition: .3s;
-    color: var(--clr-accent);
-    border-color: var(--clr-accent);
-    background-color: var(--clr-accent);
+.socials img:hover,
+img:focus {
+  transition: 0.3s;
+  color: var(--clr-accent);
+  border-color: var(--clr-accent);
+  background-color: var(--clr-accent);
 }
 
 .work {
-    margin: 1rem;
-    padding: 4rem;
-    color: var(--clr-text);
+  margin: 1rem;
+  padding: 4rem;
+  color: var(--clr-text);
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: .1em;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 0.1em;
 }
 
 .card-item img {
-    width: 100%;
-    border-radius: 20px;
-    border-color: var(--clr-icons);
-    border-style: solid;
-    border-width: 5px;
+  width: 100%;
+  border-radius: 20px;
+  border-color: var(--clr-icons);
+  border-style: solid;
+  border-width: 5px;
 }
 
 .card-item img:hover {
-    opacity: .5;
-    transition: ease-in-out .2s;
+  opacity: 0.5;
+  transition: ease-in-out 0.2s;
 }
 
-.card-item a:hover, a:focus {
-    color: var(--clr-accent);
-    cursor: pointer;
-    transition: ease-in-out .2s;
+.card-item a:hover,
+a:focus {
+  color: var(--clr-accent);
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
 }
 
 figcaption {
-    font-weight: 300;
-    font-size: 15px;
-    margin-left: 1em;
+  font-weight: 300;
+  font-size: 15px;
+  margin-left: 1em;
 }
 
 .contact {
-    margin-top: 3em;
-    margin: 1rem;
-    padding: 4rem;
-    color: var(--clr-text);
+  margin-top: 3em;
+  margin: 1rem;
+  padding: 4rem;
+  color: var(--clr-text);
 }
 
 .contact form {
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
 }
 
 .contact form > * {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-.contact form input[type=text], input[type=email], textarea {
-    padding: 1em;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 0;
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+.contact form input[type="text"],
+input[type="email"],
+textarea {
+  padding: 1em;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
 }
 
 .contact textarea {
-    height: 9em;
+  height: 9em;
 }
 
 .contact form label {
-    padding: .4em;
-} 
-
-.contact form input[type=submit] {
-    width: 8em;
-    height: 3em;
-    margin-left: .5em;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    background: transparent;
-    color: white;
-    border-style: solid;
-    border-color: var(--clr-text);
-    border-radius: 10px;
+  padding: 0.4em;
 }
 
-.contact form input[type=submit]:hover, input[type=submit]:hover {
-    color: var(--clr-accent);
-    border-color: var(--clr-accent);
-    transition: 0.3s;
+.contact form input[type="submit"] {
+  width: 8em;
+  height: 3em;
+  margin-left: 0.5em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  color: white;
+  border-style: solid;
+  border-color: var(--clr-text);
+  border-radius: 10px;
+}
+
+.contact form input[type="submit"]:hover,
+input[type="submit"]:hover {
+  color: var(--clr-accent);
+  border-color: var(--clr-accent);
+  transition: 0.3s;
 }
 
 footer {
-    padding: 1em;
-    display: flex;
-    justify-content: center;
-    color: var(--clr-accent);
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  color: var(--clr-accent);
 }
 
 @media (max-width: 700px) {
-    .nav {
-        display: none;
-    }
+  .nav {
+    display: none;
+  }
 
-    .img1 img {
-        min-width: 20%;
-        min-height: auto;
-    }
+  .img1 img {
+    min-width: 20%;
+    min-height: auto;
+  }
 
-    .phrase {
-        display: flex;
-        justify-content: center;
-    }
+  .phrase {
+    display: flex;
+    justify-content: center;
+  }
 
-    .phrase span {
-        font-size: 170%;
-    }
+  .phrase span {
+    font-size: 170%;
+  }
 
-    .desc {
-        text-align: center;
-    }
+  .desc {
+    text-align: center;
+  }
 
-    .socials img {
-        width: 1.7em;
-        height: auto;
-        padding: .2em;
-        margin: .2em;
-    }
+  .socials img {
+    width: 1.7em;
+    height: auto;
+    padding: 0.2em;
+    margin: 0.2em;
+  }
 
-    .contact {
-        padding: 1rem;
-        font-size: 14.5px;
-       }
+  .contact {
+    padding: 1rem;
+    font-size: 14.5px;
+  }
 
-    .work {
-        padding: 1rem;
-        font-size: 14.5px;
-        color: var(--clr-text);
-    }
-    
-    .cards {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: .2em;
-    }
-    
-    .card-item {
-        display: flex;
-    }
-    
-    .card-item img {
-        width: 100%;
-    }
+  .work {
+    padding: 1rem;
+    font-size: 14.5px;
+    color: var(--clr-text);
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.2em;
+  }
+
+  .card-item {
+    display: flex;
+  }
+
+  .card-item img {
+    width: 100%;
+  }
 }
 
 @media (min-width: 700px) {
-    .humb-menu {
-        display: none;
-    }
+  .humb-menu {
+    display: none;
+  }
 
-    .img1 img {
-        width: 260%;
-    }
+  .img1 img {
+    width: 260%;
+  }
 
-    .logo-item {
-        height: auto;
-        width: 15em;
-    }
+  .logo-item {
+    height: auto;
+    width: 15em;
+  }
 }
 
 @media (max-width: 360px) {
-    .humb-menu {
-        display: none;
-    }
+  .humb-menu {
+    display: none;
+  }
 
-    .img1 {
-        display: none;
-    }
+  .img1 {
+    display: none;
+  }
 
-    .logo img {
-        display: inline;
-        width: 50%;
-        height: auto;
-    }
+  .logo img {
+    display: inline;
+    width: 50%;
+    height: auto;
+  }
 
-    .humb-menu {
-        display: flex;
-        justify-content: flex-end;
-        width: .2em;
-        height: auto;
-    }
+  .humb-menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 0.2em;
+    height: auto;
+  }
 }
