@@ -6,6 +6,10 @@
   --clr-accent: #ff7600;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   margin: 1em;
